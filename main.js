@@ -164,7 +164,7 @@ const formHandler = {
      * @param {string} message - Error message to display
      */
     showError(message) {
-        alert(`Error: ${message}`);
+        this.showNotification(message, 'error');
     },
 
     /**
@@ -172,7 +172,38 @@ const formHandler = {
      * @param {string} message - Success message to display
      */
     showSuccess(message) {
-        alert(message);
+        this.showNotification(message, 'success');
+    },
+
+    /**
+     * Display notification message to user
+     * @param {string} message - Message to display
+     * @param {string} type - Type of notification ('success' or 'error')
+     */
+    showNotification(message, type = 'info') {
+        // Remove any existing notification
+        const existingNotification = dom.querySelector('.notification');
+        if (existingNotification) {
+            existingNotification.remove();
+        }
+
+        // Create notification element
+        const notification = document.createElement('div');
+        notification.className = `notification notification-${type}`;
+        notification.textContent = message;
+        notification.setAttribute('role', 'alert');
+        notification.setAttribute('aria-live', 'polite');
+
+        // Insert at the top of main content
+        const main = dom.querySelector('main');
+        if (main) {
+            main.insertBefore(notification, main.firstChild);
+
+            // Auto-dismiss after 5 seconds
+            setTimeout(() => {
+                notification.remove();
+            }, 5000);
+        }
     }
 };
 

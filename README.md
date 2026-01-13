@@ -20,7 +20,7 @@ Kasbeet Engineering Studios is dedicated to excellence in engineering practices,
 ├── styles.css          # Professional, minimalist stylesheet
 ├── main.js             # Clean, well-documented JavaScript
 ├── .editorconfig       # Editor configuration for consistent formatting
-├── .eslintrc.json      # JavaScript linting rules
+├── eslint.config.js    # JavaScript linting rules
 ├── CODE_STANDARDS.md   # Comprehensive code standards documentation
 └── README.md           # This file
 ```

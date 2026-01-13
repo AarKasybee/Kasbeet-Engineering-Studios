@@ -85,7 +85,7 @@ This document outlines the code standards and best practices for Kasbeet Enginee
 ├── styles.css          # Main stylesheet
 ├── main.js             # Main JavaScript file
 ├── .editorconfig       # Editor configuration
-├── .eslintrc.json      # JavaScript linting rules
+├── eslint.config.js    # JavaScript linting rules
 └── CODE_STANDARDS.md   # This file
 ```
 

@@ -12,7 +12,8 @@ export default [
                 console: 'readonly',
                 alert: 'readonly',
                 FormData: 'readonly',
-                Object: 'readonly'
+                Object: 'readonly',
+                setTimeout: 'readonly'
             }
         },
         rules: {
