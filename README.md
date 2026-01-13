@@ -1,6 +1,7 @@
 # Kasbeet Engineering Studios
 _Advancing applied engineering, systems design, and engineering education._
 
+---
 **Kasbeet Engineering Studios** is an independent engineering studio focused on  
 **applied systems engineering, technical design, and advanced engineering education.**
 
