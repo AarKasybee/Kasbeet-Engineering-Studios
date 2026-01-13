@@ -215,11 +215,20 @@ const app = {
      * Initialize the application
      */
     init() {
-        document.addEventListener('DOMContentLoaded', () => {
-            navigation.init();
-            formHandler.init();
-            console.log('Kasbeet Engineering Studios - Application initialized');
-        });
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', this.onReady.bind(this));
+        } else {
+            this.onReady();
+        }
+    },
+
+    /**
+     * Called when DOM is ready
+     */
+    onReady() {
+        navigation.init();
+        formHandler.init();
+        console.log('Kasbeet Engineering Studios - Application initialized');
     }
 };
 
