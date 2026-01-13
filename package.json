@@ -1,0 +1,21 @@
+{
+  "name": "kasbeet-engineering-studios",
+  "version": "1.0.0",
+  "description": "Advancing applied engineering, systems design, and engineering education.",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "lint": "eslint *.js",
+    "lint:fix": "eslint *.js --fix"
+  },
+  "keywords": [
+    "engineering",
+    "systems-design",
+    "education"
+  ],
+  "author": "Kasbeet Engineering Studios",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^9.39.2"
+  }
+}
