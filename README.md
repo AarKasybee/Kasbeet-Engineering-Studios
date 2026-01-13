@@ -1,4 +1,5 @@
 # Kasbeet Engineering Studios
+_Advancing applied engineering, systems design, and engineering education._
 
 **Kasbeet Engineering Studios** is an independent engineering studio focused on  
 **applied systems engineering, technical design, and advanced engineering education.**
@@ -51,7 +52,7 @@ This philosophy is reflected in both our engineering projects and our teaching.
 
 Alongside engineering work, Kasbeet Engineering Studios provides **high-level engineering tutoring** for mathematically demanding modules across the electrical and electronic engineering curriculum.
 
-Over four years of instruction covering more than **170 hours**, we have supported students in:
+Over four years of instruction covering more than **500 hours**, we have supported students in:
 
 - Engineering mathematics (calculus, differential equations, linear systems)
 - Control theory and feedback systems
