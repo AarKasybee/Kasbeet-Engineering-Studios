@@ -13,6 +13,7 @@ import ParticlesBackground from "./components/ParticlesBackground";
 
 function App() {
   return (
+    <div className="main-content">
     <div>
       <ParticlesBackground />
       <Header />
@@ -22,6 +23,7 @@ function App() {
       <Portfolio />
       <Contact />
       <Footer />
+    </div>
     </div>
   );
 }

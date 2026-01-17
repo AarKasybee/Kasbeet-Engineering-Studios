@@ -106,3 +106,9 @@ button {
   z-index: 0;
   pointer-events: none; /* ensures particles don't block clicks */
 }
+
+.main-content {
+  position: relative;
+  z-index: 1;
+}
+
