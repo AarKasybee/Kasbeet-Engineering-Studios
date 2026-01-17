@@ -96,3 +96,13 @@ section {
 button {
   animation: neon 1.5s infinite alternate;
 }
+
+.particles-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  pointer-events: none; /* ensures particles don't block clicks */
+}

@@ -8,6 +8,7 @@ function ParticlesBackground() {
   };
 
   return (
+    <div className="particles-wrapper">
     <Particles
   id="tsparticles"
   init={particlesInit}
@@ -65,6 +66,8 @@ function ParticlesBackground() {
     detectRetina: true,
   }}
 />
+</div>
+
   );
 }
 
