@@ -80,3 +80,18 @@ section {
   margin-top: 20px;
 }
 
+
+/* Add a glowing pulse effect */
+@keyframes neon {
+  0%, 100% {
+    box-shadow: 0 0 10px #00FFFF, 0 0 20px #00FFFF;
+  }
+  50% {
+    box-shadow: 0 0 20px #00FFFF, 0 0 40px #00FFFF;
+  }
+}
+
+/* Apply to buttons */
+button {
+  animation: neon 1.5s infinite alternate;
+}
