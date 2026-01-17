@@ -9,10 +9,12 @@ import Services from "./components/Services";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import ParticlesBackground from "./ParticlesBackground";
 
 function App() {
   return (
     <div>
+      <ParticlesBackground />
       <Header />
       <Hero />
       <About />
