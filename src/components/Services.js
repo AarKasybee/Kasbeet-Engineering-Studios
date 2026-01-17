@@ -1,0 +1,19 @@
+import React from "react";
+
+function Services() {
+  return (
+    <section id="services" className="bg-light py-5">
+      <div className="container">
+        <h3>Our Services</h3>
+        <ul>
+          <li>Control Systems & Signal Processing</li>
+          <li>Electrical & Embedded Systems Development</li>
+          <li>Numerical Simulations & Engineering Software Development</li>
+          <li>High-Level Tutoring in Technical Modules</li>
+        </ul>
+      </div>
+    </section>
+  );
+}
+
+export default Services;

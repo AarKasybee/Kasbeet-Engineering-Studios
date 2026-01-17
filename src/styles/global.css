@@ -1,0 +1,58 @@
+/* Apply a dark background and futuristic font */
+body {
+  margin: 0;
+  font-family: 'Orbitron', sans-serif;
+  background-color: #121212;  /* Dark gray */
+  color: #E0E0E0;  /* Light gray for text */
+  overflow-x: hidden;
+}
+
+/* Add neon accents and glowing effects */
+h1, h2, h3, p, a {
+  color: #00FFFF; /* Neon cyan */
+  text-shadow: 0px 0px 10px #00FFFF; /* Glowing effect */
+}
+
+/* Links with cool hover effects */
+a {
+  text-decoration: none;
+  transition: color 0.3s ease-out;
+}
+
+a:hover {
+  color: #FFFFFF; /* White glow on hover */
+  text-shadow: 0px 0px 15px #FFFFFF;
+}
+
+/* Smooth hover effects for buttons */
+button {
+  background-color: #0A0A0A; /* Slightly darker gray button */
+  border: 2px solid #00FFFF;
+  color: #00FFFF;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-family: 'Orbitron', sans-serif;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #00FFFF; /* Neon cyan fill on hover */
+  color: #0A0A0A; /* Inverted text */
+  box-shadow: 0px 0px 15px #00FFFF;
+}
+
+/* Add a glowing border effect to sections */
+section {
+  padding: 60px 20px;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  margin: 20px;
+  box-shadow: 0px 0px 40px rgba(0, 255, 255, 0.2);
+}
+
+/* Add smooth page transitions and dynamic feel */
+* {
+  transition: all 0.3s ease-in-out;
+}
