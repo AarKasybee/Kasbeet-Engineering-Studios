@@ -5,6 +5,7 @@ body {
   background-color: #121212;  /* Dark gray */
   color: #E0E0E0;  /* Light gray for text */
   overflow-x: hidden;
+  cursor: url(https://example.com/neon-cursor.png), auto;
 }
 
 /* Add neon accents and glowing effects */
