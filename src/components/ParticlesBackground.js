@@ -13,9 +13,9 @@ function ParticlesBackground() {
   id="tsparticles"
   init={particlesInit}
   options={{
-    background: {
+    /*background: {
       color: "#121212", // dark engineering theme background
-    },
+    },*/
     fullScreen: {
       enable: false,
       zIndex: 0, // ensures particles stay behind your content
