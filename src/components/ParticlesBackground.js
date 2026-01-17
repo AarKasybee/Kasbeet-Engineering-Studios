@@ -17,7 +17,7 @@ function ParticlesBackground() {
       color: "#121212", // dark engineering theme background
     },
     fullScreen: {
-      enable: true,
+      enable: false,
       zIndex: 0, // ensures particles stay behind your content
     },
     particles: {
