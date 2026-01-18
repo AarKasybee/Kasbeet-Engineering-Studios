@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Kasbeet-Engineering-Studios/static/css/main.391b23a5.css",
-    "main.js": "/Kasbeet-Engineering-Studios/static/js/main.5a48f352.js",
+    "main.js": "/Kasbeet-Engineering-Studios/static/js/main.3013bfb2.js",
     "static/js/453.fe459199.chunk.js": "/Kasbeet-Engineering-Studios/static/js/453.fe459199.chunk.js",
     "index.html": "/Kasbeet-Engineering-Studios/index.html",
     "main.391b23a5.css.map": "/Kasbeet-Engineering-Studios/static/css/main.391b23a5.css.map",
-    "main.5a48f352.js.map": "/Kasbeet-Engineering-Studios/static/js/main.5a48f352.js.map",
+    "main.3013bfb2.js.map": "/Kasbeet-Engineering-Studios/static/js/main.3013bfb2.js.map",
     "453.fe459199.chunk.js.map": "/Kasbeet-Engineering-Studios/static/js/453.fe459199.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.391b23a5.css",
-    "static/js/main.5a48f352.js"
+    "static/js/main.3013bfb2.js"
   ]
 }
