@@ -2,7 +2,7 @@ import React from "react";
 
 function Services() {
   return (
-    <section id="services" className="bg-light py-5">
+    <section id="services" className="py-5">
       <div className="container">
         <h3>Our Services</h3>
         <ul>
