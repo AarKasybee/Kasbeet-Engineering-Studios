@@ -22,7 +22,7 @@ function ParticlesBackground() {
     },
     particles: {
       number: {
-        value: 60, // balanced count for performance
+        value: 100, // balanced count for performance
         density: { enable: true, area: 800 },
       },
       color: {
@@ -37,11 +37,11 @@ function ParticlesBackground() {
       },
       move: {
         enable: true,
-        speed: 2,
+        speed: 4,
         direction: "none",
         random: false,
         straight: false,
-        outModes: { default: "out" },
+        outModes: { default: "bounce" },
       },
       opacity: {
         value: 0.6,

@@ -10,8 +10,9 @@ body {
 
 /* Add neon accents and glowing effects */
 h1, h2, h3, p, a {
-  color: #00FFFF; /* Neon cyan */
-  text-shadow: 0px 0px 10px #00FFFF; /* Glowing effect */
+  background: linear-gradient(to right, #0ff, #00f); /* Example gradient */
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 /* Links with cool hover effects */
@@ -110,5 +111,14 @@ button {
 .main-content {
   position: relative;
   z-index: 1;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+li:hover {
+  color: #ffffff; /* Slightly different neon shade for hover */
+  text-shadow: 0px 0px 10px #00FFD1;
 }
 
