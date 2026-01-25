@@ -1,6 +1,7 @@
 import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom"; // Add these
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./styles/global.css"; // Your theme file
+import "./styles/global.css"; 
 
 import Header from "./components/Header";
 import Hero from "./components/Hero";
@@ -13,18 +14,19 @@ import ParticlesBackground from "./components/ParticlesBackground";
 
 function App() {
   return (
-    <div className="main-content">
-    <div>
-      <ParticlesBackground />
-      <Header />
-      <Hero />
-      <About />
-      <Services />
-      <Portfolio />
-      <Contact />
-      <Footer />
-    </div>
-    </div>
+    <Router> {/* Wrap the entire app in Router */}
+      <div className="main-content">
+        <ParticlesBackground />
+        <Header />
+        <Hero />
+        {/* Main Landing Page View */}
+        <About />
+        <Services />
+        <Portfolio />
+        <Contact />
+        <Footer />
+      </div>
+    </Router>
   );
 }
 

@@ -1,0 +1,71 @@
+/* Container for the side-by-side columns */
+.services-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; /* Allows wrapping on smaller screens */
+  gap: 30px;
+  justify-content: center;
+  align-items: stretch;
+  margin-top: 40px;
+  /*position: relative;*/
+  /*z-index: 10;*/ /* Ensure it is above any background layers */
+}
+
+/* Base card design */
+.service-card {
+  flex: 1; /* Ensures equal width columns */
+  /*min-width: 300px;*/ /* Ensures they don't get too small */
+  /*max-width: 450px;*/
+  background-color: #0A0A0A; /* Slightly darker than body for depth [cite: 16] */
+  border: 2px solid #00FFFF; /* Neon border [cite: 17] */
+  border-radius: 15px; /* Rounded corners as requested */
+  padding: 40px 20px;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out; /* Smooth transition [cite: 22] */
+  box-shadow: 0px 4px 15px rgba(0, 255, 255, 0.1); /* Subtle initial shadow */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  visibility: visible !important; /* Force visibility */
+}
+
+/* Hover effect: Card "lights up" */
+.service-card:hover {
+  background-color: #1a1a1a; /* Subtle lighten */
+  box-shadow: 0px 0px 30px rgba(0, 255, 255, 0.4); /* Glowing neon shadow [cite: 25] */
+  transform: translateY(-5px); /* Slight lift for interactivity */
+}
+
+/* Card Typography */
+.service-card h4 {
+  font-family: 'Orbitron', sans-serif; /* Studio branding [cite: 11] */
+  font-size: 2rem;
+  margin-bottom: 15px;
+  background: linear-gradient(to right, #00FFFF, #008B8B); /* Cyan gradient [cite: 13] */
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.service-card p {
+  color: #E0E0E0;
+  font-size: 1rem;
+  margin-bottom: 25px;
+}
+
+.explore-btn {
+  font-family: 'Orbitron', sans-serif;
+  color: #00FFFF;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  letter-spacing: 2px;
+  border-top: 1px solid rgba(0, 255, 255, 0.3);
+  padding-top: 15px;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .services-grid {
+    flex-direction: column; /* Stack on mobile */
+  }
+}
