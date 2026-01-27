@@ -3,8 +3,10 @@ import React from "react";
 function Header() {
   return (
     <header className="bg-dark text-white text-center py-3">
-      <h1>Kasbeet Engineering Studios</h1>
-      <p>Advancing applied engineering, systems design, and education.</p>
+      <a href="/" className="text-white text-decoration-none d-inline-block">
+        <h1>Kasbeet Engineering Studios</h1>
+        <p>Advancing applied engineering, systems design, and education.</p>
+      </a>
       <nav>
         <a href="#about" className="text-white mx-2">About</a>
         <a href="#services" className="text-white mx-2">Services</a>

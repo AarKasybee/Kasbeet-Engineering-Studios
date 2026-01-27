@@ -22,7 +22,7 @@ function ParticlesBackground() {
     },
     particles: {
       number: {
-        value: 100, // balanced count for performance
+        value: 150, // balanced count for performance
         density: { enable: true, area: 800 },
       },
       color: {

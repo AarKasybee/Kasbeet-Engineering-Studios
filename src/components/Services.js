@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom"; // Assumes you use react-router for navigation
-import "./styles/Services.css"; 
+import "../styles/Services.css"; 
 
 function Services() {
   const navigate = useNavigate();
@@ -8,7 +8,7 @@ function Services() {
   return (
     <section id="services" className="py-5">
       <div className="container">
-        <h3 className="section-title">Our Pillars</h3>
+        <h3 className="section-title">Services</h3>
         <div className="services-grid">
           
           {/* Engineering Card */}

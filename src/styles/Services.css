@@ -2,15 +2,20 @@
 .services-grid {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap; /* Allows wrapping on smaller screens */
   gap: 30px;
   justify-content: center;
   align-items: stretch;
   margin-top: 40px;
+  position: relative;
+  z-index: 10; /* Ensure it is above any background layers */
 }
 
 /* Base card design */
 .service-card {
   flex: 1; /* Ensures equal width columns */
+  /*min-width: 300px;*/ /* Ensures they don't get too small */
+  /*max-width: 450px;*/
   background-color: #0A0A0A; /* Slightly darker than body for depth [cite: 16] */
   border: 2px solid #00FFFF; /* Neon border [cite: 17] */
   border-radius: 15px; /* Rounded corners as requested */
@@ -22,6 +27,7 @@
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  visibility: visible !important; /* Force visibility */
 }
 
 /* Hover effect: Card "lights up" */

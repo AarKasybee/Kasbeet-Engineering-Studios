@@ -1,0 +1,41 @@
+.engineering-page {
+  padding-top: 100px;
+  min-height: 100vh;
+}
+
+.glow-text {
+  font-family: 'Orbitron', sans-serif; /* cite: 11 */
+  color: #00FFFF; /* cite: 17 */
+  text-shadow: 0 0 15px rgba(0, 255, 255, 0.7); /* cite: 24 */
+}
+
+.project-entry {
+  background: rgba(20, 20, 20, 0.8);
+  border-left: 4px solid #00FFFF; /* cite: 17 */
+  padding: 30px;
+  margin-bottom: 40px;
+  border-radius: 0 10px 10px 0;
+  box-shadow: 0px 0px 20px rgba(0, 255, 255, 0.1); /* cite: 21 */
+}
+
+.tech-stack {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.tech-stack li {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.85rem;
+  color: #00FFFF;
+  border: 1px solid #00FFFF;
+  padding: 4px 10px;
+  border-radius: 4px;
+}
+
+/* Center hero section text */
+.eng-hero .container {
+  text-align: center;
+}
