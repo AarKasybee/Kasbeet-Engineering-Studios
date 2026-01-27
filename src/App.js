@@ -21,7 +21,7 @@ import Tutoring from "./components/Tutoring";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/Kasbeet-Engineering-Studios">
       <div className="main-content">
         {/* Persistent elements visible on all routes */}
         <ParticlesBackground />
@@ -30,7 +30,7 @@ function App() {
         <Routes>
           {/* Main Home Route: Stacks all standard sections */}
           <Route 
-            path="/" 
+            path="/"
             element={
               <>
                 <Hero />
