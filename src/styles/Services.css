@@ -67,5 +67,7 @@
 @media (max-width: 768px) {
   .services-grid {
     flex-direction: column; /* Stack on mobile */
+    margin-bottom: 20px;
+    padding: 30px 15px;
   }
 }
