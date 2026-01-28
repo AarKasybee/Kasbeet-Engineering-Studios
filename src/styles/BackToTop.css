@@ -1,0 +1,36 @@
+.back-to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #0A0A0A;
+  border: 2px solid #00FFFF;
+  color: #00FFFF;
+  padding: 10px 15px;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  text-align: center;
+  cursor: pointer;
+  z-index: 1000;
+  box-shadow: 0px 0px 15px rgba(0, 255, 255, 0.6);
+  transition: opacity 0.4s ease-in-out, transform 0.3s ease-in-out;
+  opacity: 0;
+  pointer-events: none; /* prevent clicks when hidden */
+}
+
+.back-to-top.show {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+}
+
+.back-to-top.hide {
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(20px); /* subtle slide down when hiding */
+}
+
+.back-to-top:hover {
+  background-color: #00FFFF;
+  color: #0A0A0A;
+  box-shadow: 0px 0px 20px #00FFFF;
+}

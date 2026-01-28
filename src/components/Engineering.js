@@ -1,7 +1,9 @@
 import React from "react";
+import { HashLink } from "react-router-hash-link";
 import "../styles/Engineering.css";
 
 function Engineering() {
+
   return (
     <div className="engineering-page">
       <section className="eng-hero py-5">
@@ -47,6 +49,13 @@ function Engineering() {
           </div>
         </div>
       </section>
+
+      {/* Back button */}
+      <div className="text-center mt-4">
+        <HashLink smooth to="/#services" className="btn btn-outline-info">
+          ← Back to Services
+        </HashLink>
+      </div>
     </div>
   );
 }

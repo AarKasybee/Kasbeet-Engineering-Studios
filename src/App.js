@@ -19,10 +19,14 @@ import Contact from "./components/Contact"; // [cite: 4, 7]
 import Engineering from "./components/Engineering";
 import Tutoring from "./components/Tutoring";
 
+import BackToTop from "./components/BackToTop.js";
+import ScrollProgress from "./components/ScrollProgress";
+
 function App() {
   return (
     <Router basename="/Kasbeet-Engineering-Studios">
       <div className="main-content">
+        <ScrollProgress />   {/* ← Progress bar */}
         {/* Persistent elements visible on all routes */}
         <ParticlesBackground />
         <Header />
@@ -46,6 +50,8 @@ function App() {
           <Route path="/engineering" element={<Engineering />} />
           <Route path="/tutoring" element={<Tutoring />} />
         </Routes>
+
+        <BackToTop />   {/* ← Floating button */}
 
         <Footer />
       </div>
